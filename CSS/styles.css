@@ -1,0 +1,42 @@
+h1{
+    color: red;
+}
+/*
+p{
+    color: green;
+}
+li{
+    color: green;
+    list-style-type: square;
+}
+.special {
+    color: orange;
+    font-weight: bold;
+  }
+li.special{
+    color: red;
+    font-weight: bold;
+}
+h1+p{
+    font-size: 200%;
+}
+a:link{
+    color: rgb(214, 16, 131);
+}
+a:visited{
+    color: orange;
+}
+a:hover{
+    text-decoration: none;
+}
+a.linkGreppi:hover{
+    color: darkcyan;
+    text-decoration: none;
+}
+*/
+body{
+    background-color: black;
+    color: yellow;
+    padding: 5px;
+}
+  

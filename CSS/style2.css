@@ -1,0 +1,17 @@
+h1 {
+    color: blue;
+    background-color: yellow;
+    border: 1px solid black;
+    font-size: 50px;
+  }
+  
+  p {
+    color: blue;
+  }
+  .special{
+    color: red;
+  }
+  body{
+    background-color: black;
+  }
+  
