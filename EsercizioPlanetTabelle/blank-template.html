@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Table template</title>
+    <link href="minimal-table.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Planets data</h1>
+    <table>
+        <caption>
+            Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
+        </caption>
+        <colgroup>
+            <col span="2">
+            <col style="border: 2px solid black;">
+            <col span="9">
+        </colgroup>
+        <thead>
+            <tr>
+                <td colspan="2"></td>
+                <th scope="col">Name</th>
+                <th scope="col">
+                    "Mass (10<sup>24</sup>kg)"
+                </th>
+                <th scope="col">Diameter</th>
+                <td>Name</td>
+                <td>Mass <br> (10<sup>24</sup>kg)</td>
+                <td>Diameter <br> (km)</td>
+                <td>Density (kg/m<sup>3</sup>)</td>
+                <td>Gravity (m/s<sup>2</sup>)</td>
+                <td>Length of day (hours)</td>
+                <td>Distance from Sun (10<sup>6</sup>km)</td>
+                <td>Mean temperature (°C)</td>
+                <td>Number of moons</td>
+                <td>Notes</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Terrestrial planets</td>
+                
+            </tr>
+            <tr>
+                <td>Jovian planets</td>
+            </tr>
+            <tr>
+                <td>Dwarf planets</td>
+            </tr>
+        </tbody>
+    </table>
+
+  </body>
+</html>
